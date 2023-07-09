@@ -1,0 +1,13 @@
+.btn {
+  padding: 0 2.5rem;
+  font-weight: 500;
+  border-radius: 20px;
+}
+
+.btn-accent {
+  background: var(--accent);
+}
+
+.btn-white {
+  background: var(--white);
+}
