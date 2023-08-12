@@ -39,6 +39,14 @@
         "chunks": [],
         "async": false
       }
+    },
+    "(app-client)/./components/Button.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/Button.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -125,6 +133,14 @@
     },
     "/Users/tienkim/Documents/MyCode/courses/nextjs-nestjs-tutorial/showcase-nextjs/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
       "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/tienkim/Documents/MyCode/courses/nextjs-nestjs-tutorial/showcase-nextjs/components/Button.tsx": {
+      "id": "(app-client)/./components/Button.tsx",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"

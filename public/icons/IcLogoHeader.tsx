@@ -1,8 +1,8 @@
 import { SizeImage } from "@/constants/types/homeType"
 
-export const IcLogoHeader = ({ width, height }: SizeImage) => {
+export const IcLogoHeader = ({ width, height, ...props }: SizeImage) => {
   return (
-    <div style={{ width, height }}>
+    <div style={{ width, height, ...props }}>
       <svg
         viewBox="0 0 230 34.5791630282359"
         version="1.1"

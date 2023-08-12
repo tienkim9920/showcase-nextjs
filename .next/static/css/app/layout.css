@@ -557,6 +557,12 @@ video {
 .justify-center {
   justify-content: center;
 }
+<<<<<<< Updated upstream
+=======
+.justify-between {
+  justify-content: space-between;
+}
+>>>>>>> Stashed changes
 .gap-x-0 {
   -moz-column-gap: 0px;
        column-gap: 0px;
@@ -565,6 +571,23 @@ video {
   -moz-column-gap: 0.125rem;
        column-gap: 0.125rem;
 }
+<<<<<<< Updated upstream
+=======
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.font-bold {
+  font-weight: 700;
+}
+.underline {
+  text-decoration-line: underline;
+}
+>>>>>>> Stashed changes
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;1,300;1,500;1,600&display=swap');
 
 body {
