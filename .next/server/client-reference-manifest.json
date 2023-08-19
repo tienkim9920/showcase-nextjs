@@ -40,6 +40,14 @@
         "async": false
       }
     },
+    "(app-client)/./components/Header.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/Header.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./components/Button.tsx": {
       "*": {
         "id": "(sc_client)/./components/Button.tsx",
@@ -131,8 +139,8 @@
       ],
       "async": false
     },
-    "/Users/tienkim/Documents/MyCode/courses/nextjs-nestjs-tutorial/showcase-nextjs/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
-      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+    "/Users/tienkim/Documents/MyCode/courses/nextjs-nestjs-tutorial/showcase-nextjs/components/Header.tsx": {
+      "id": "(app-client)/./components/Header.tsx",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
@@ -147,8 +155,24 @@
       ],
       "async": false
     },
+    "/Users/tienkim/Documents/MyCode/courses/nextjs-nestjs-tutorial/showcase-nextjs/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
+      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
     "/Users/tienkim/Documents/MyCode/courses/nextjs-nestjs-tutorial/showcase-nextjs/styles/globals.css": {
       "id": "(app-client)/./styles/globals.css",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/tienkim/Documents/MyCode/courses/nextjs-nestjs-tutorial/showcase-nextjs/styles/home.css": {
+      "id": "(app-client)/./styles/home.css",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
@@ -157,9 +181,9 @@
     }
   },
   "entryCSSFiles": {
+    "/Users/tienkim/Documents/MyCode/courses/nextjs-nestjs-tutorial/showcase-nextjs/app/page": [],
     "/Users/tienkim/Documents/MyCode/courses/nextjs-nestjs-tutorial/showcase-nextjs/app/layout": [
       "static/css/app/layout.css"
-    ],
-    "/Users/tienkim/Documents/MyCode/courses/nextjs-nestjs-tutorial/showcase-nextjs/app/page": []
+    ]
   }
 }

@@ -1,0 +1,14 @@
+/* START */
+
+.section-banner .title-banner {
+  font-size: 48px;
+  font-weight: 500;
+  width: 70%;
+}
+
+.section-banner .sub-title-banner {
+  margin-top: 1rem;
+  font-size: 20px;
+  font-weight: 300;
+  width: 75%;
+}

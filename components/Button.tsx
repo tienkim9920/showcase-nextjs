@@ -7,7 +7,8 @@ type Props = {
   width?: string;
   height?: string;
   loading?: boolean;
-  children?: ReactNode
+  children?: ReactNode;
+  onClick?: () => void;
 };
 
 const BG_HOVER: Record<Props['color'], string> = {
@@ -31,6 +32,7 @@ export const Button = ({
   color = 'accent',
   loading,
   children,
+  onClick,
 }: Props) => {
   const [isHover, setIsHover] = useState(false);
 
@@ -51,10 +53,12 @@ export const Button = ({
         fontSize: '14px',
         fontWeight: 300,
         borderRadius: '50px',
+        zIndex: 1
       }}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       disabled={loading}
+      onClick={() => onClick && onClick()}
     >
       {!loading
         ? children
