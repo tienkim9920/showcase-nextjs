@@ -566,11 +566,26 @@ video {
 .top-0 {
   top: 0px;
 }
+.right-0 {
+  right: 0px;
+}
+.right-24 {
+  right: 6rem;
+}
+.left-24 {
+  left: 6rem;
+}
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
 .mt-10 {
   margin-top: 2.5rem;
 }
 .mt-3 {
   margin-top: 0.75rem;
+}
+.mt-5 {
+  margin-top: 1.25rem;
 }
 .flex {
   display: flex;
@@ -578,11 +593,25 @@ video {
 .h-full {
   height: 100%;
 }
+.w-4\/6 {
+  width: 66.666667%;
+}
 .w-full {
   width: 100%;
 }
 .flex-1 {
   flex: 1 1 0%;
+}
+.columns-1 {
+  -moz-columns: 1;
+       columns: 1;
+}
+.columns-3 {
+  -moz-columns: 3;
+       columns: 3;
+}
+.items-end {
+  align-items: flex-end;
 }
 .items-center {
   align-items: center;
@@ -608,20 +637,22 @@ video {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;1,300;1,500;1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;1,300;1,500;1,600&display=swap");
 
 body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+input,
+input::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 4;
 }
 
 @media (min-width: 640px) {
-
-  .sm\:hidden {
-    display: none;
-  }
 
   .sm\:h-60 {
     height: 15rem;
@@ -630,28 +661,34 @@ body {
 
 @media (min-width: 768px) {
 
-  .md\:block {
-    display: block;
-  }
-
-  .md\:h-3\/4 {
-    height: 75%;
+  .md\:h-4\/6 {
+    height: 66.666667%;
   }
 }
+
 /*!***********************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[4].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[4].oneOf[12].use[3]!./styles/home.css ***!
   \***********************************************************************************************************************************************************************************************************************************************************/
 /* START */
 
-.section-banner .title-banner {
+.title-homepage {
   font-size: 48px;
-  font-weight: 500;
-  width: 70%;
+  font-weight: 600;
 }
 
-.section-banner .sub-title-banner {
+.sub-title-homepage {
   margin-top: 1rem;
   font-size: 20px;
   font-weight: 300;
-  width: 75%;
+}
+
+.title-catalogue {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.sub-title-homepage {
+  margin-top: .5rem;
+  font-size: 20px;
+  font-weight: 300;
 }
