@@ -1,16 +1,17 @@
 'use client';
 import { Button, TextField } from "@/components";
 import { IcCarLogo } from "@/public/icons/IcCarLogo";
+import CardItems from "@/views/homepage/CardItems";
 
 export default function Home() {
   return (
     <>
-      <div className="overflow-hidden">
+      <div className="overflow-hidden none">
         <div className="relative w-full h-full" style={{ zIndex: -1, left: '55%', bottom: '5rem' }}>
           <img src="/images/hero-bg.png" style={{ height: '45rem' }} />
         </div>
       </div>
-      <div className="section-banner absolute top-0 left-10 sm:h-60 md:h-4/6 flex">
+      <div className="absolute top-0 left-10 h-4/6 flex">
         <div className="flex-1 flex items-end">
           <div>
             <h1 className="title-homepage w-4/6">Find, book or rent a car, quickly and easily!</h1>
@@ -39,6 +40,7 @@ export default function Home() {
           />
           <Button width="100px" height="40px" color="accent">Search</Button>
         </div>
+        <CardItems />
       </div>
     </>
   )
